@@ -197,9 +197,4 @@ body {
         width: calc(100% / 3 - 20px);
         ;
     }
-    .background-card {
-        position: absolute;
-        z-index: -1;
-        background-color: #e6e9eb;
-    }
 }
