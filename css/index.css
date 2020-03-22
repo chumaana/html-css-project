@@ -18,7 +18,7 @@ body {
 
 .background-section4 {
     background-image: url(../img/fe11-desktop.png);
-    height: 643px;
+    height: 100%;
     width: 100%;
 }
 
@@ -61,6 +61,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding-top: 63px;
+    padding-bottom: 115px;
 }
 
 .first-block {
@@ -227,12 +228,9 @@ body {
         padding-right: 76px;
         max-width: 768px;
     }
-    .background-section4 {
-        height: 606px;
-    }
     .about-section4 {
         flex-direction: column-reverse;
-        padding: 0;
+        padding-bottom: 40px;
     }
     .text1-section4 {
         width: 100%;
@@ -353,9 +351,6 @@ body {
         padding-left: 30px;
         padding-right: 30px;
         max-width: 320px;
-    }
-    .background-section4 {
-        height: 562px;
     }
     .text1-section4 {
         font-size: 16px;
