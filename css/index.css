@@ -152,11 +152,6 @@ button:focus {
     color: #ff6b08;
 }
 
-.button:focus {
-    background-color: #ffffff;
-    color: #ff6b08;
-}
-
 .logo {
     padding: 20px;
 }
