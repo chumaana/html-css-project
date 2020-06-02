@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+    @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 body {
     overflow-x: hidden;
 }
@@ -147,6 +147,16 @@ button:focus {
     border: #ff6b08;
 }
 
+.button:hover {
+    background-color: #ffffff;
+    color: #ff6b08;
+}
+
+.button:focus {
+    background-color: #ffffff;
+    color: #ff6b08;
+}
+
 .logo {
     padding: 20px;
 }
@@ -272,6 +282,14 @@ button:focus {
     background-color: #ff702a;
 }
 
+.button-section2:hover {
+    background-color: #ffffff;
+}
+
+.button-section2:hover .button_text-section2 {
+    color: #ff702a;
+}
+
 .h2-section2 {
     width: 90%;
     /* height: 261px; */
@@ -388,7 +406,7 @@ button:focus {
     margin-bottom: 60px;
     position: relative;
     background-color: #fff;
-    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
 }
 
 .block-card-section3::after {
@@ -527,6 +545,14 @@ button:focus {
     border: none;
 }
 
+.button-style:hover {
+    background-color: #ffffff;
+}
+
+.button-style:hover .button-text {
+    color: #ff702a;
+}
+
 .button-text {
     font-size: 30px;
     color: #ffffff;
@@ -551,9 +577,9 @@ button:focus {
 }
 
 .line-section4 {
+    background-color: #00eaff;
     width: 60px;
     height: 2px;
-    background-color: #00eaff;
     margin-bottom: 21px;
 }
 
@@ -1290,6 +1316,7 @@ button:focus {
     }
     .awards {
         flex-direction: column;
+        padding-bottom: 45px;
     }
     .block-awards {
         width: 100%;
@@ -1329,3 +1356,10 @@ button:focus {
         bottom: 37px;
     }
 }
+
+@media (max-width: 320px) {
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+        max-width: 320px;
+    }

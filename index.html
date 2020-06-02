@@ -45,12 +45,14 @@
                                     С вам свяжется карьерный консультант и ответит на вопросы
                                 </p>
                             </div>
-                            <div class="contact">
-                                <input type="text" class="input" placeholder="Имя" />
-                                <input type="text" class="input" placeholder="Email" />
-                                <input type="text" class="input" placeholder="Телефон" />
-                                <button type="submit" class="button">ОСТАВИТЬ ЗАЯВКУ</button>
-                            </div>
+                            <form>
+                                <div class="contact" action>
+                                    <input type="text" class="input" placeholder="Имя" required/>
+                                    <input type="text" class="input" placeholder="Email" required/>
+                                    <input type="text" class="input" placeholder="Телефон" required/>
+                                    <button type="submit" class="button">ОСТАВИТЬ ЗАЯВКУ</button>
+                                </div>
+                            </form>
                         </div>
                         <p class="after">Политика конфиденциальности</p>
                     </div>
@@ -264,7 +266,8 @@
                         </div>
                     </div>
                     <div class="second-block">
-                        <hr class="line-section4" />
+                        <div class="line-section4">
+                        </div>
                         <div>
                             <p class="text-info">
                                 <b>Сейчас на IT рынке работы намногo больше, чем
