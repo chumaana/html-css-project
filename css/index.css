@@ -237,7 +237,7 @@
                 width: 60px;
                 position: relative;
                 left: -43px;
-                top:12px;
+                top: 15px;
             }
             
             .section2 {
@@ -251,13 +251,16 @@
                 justify-content: space-between;
             }
             
-            .card-section2 {
+            .card2-section2 {
                 z-index: 1;
                 position: relative;
-                width: calc(100% / 3 - 40px);
                 height: 275px;
                 background-color: #ffffff;
-                /* padding: 45px 30px; */
+                box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+            }
+            
+            .card-section2 {
+                width: calc(100% / 3 - 40px);
                 box-shadow: -20px 20px 1px 0px rgba(221, 223, 225, 1);
             }
             
@@ -285,7 +288,6 @@
             
             .h2-section2 {
                 width: 90%;
-                /* height: 261px; */
                 margin-bottom: 115px;
                 font-size: 48px;
                 letter-spacing: -2px;
