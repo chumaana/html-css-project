@@ -1325,6 +1325,9 @@
                 letter-spacing: -1px;
                 line-height: 30px;
             }
+            .img-icon-section5 {
+                align-self: center;
+            }
             .button--request {
                 margin-top: 60px;
                 font-size: 20px;
